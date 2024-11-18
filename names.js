@@ -1,7 +1,5 @@
 function PersonName({ firstName, lastName }) {
-  console.log(
-    `Creazione oggetto: firstName=${firstName}, lastName=${lastName}`
-  );
+  console.log(`Identità: Nome= ${firstName}, Cognome= ${lastName}`);
   return {
     firstName,
     lastName,
