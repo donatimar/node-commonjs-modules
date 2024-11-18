@@ -1,0 +1,13 @@
+{
+  "name": "node-commonjs-module",
+  "version": "1.0.0",
+  "description": "Esercizio su commonjs",
+  "main": "people.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node people.js",
+    "watch": "node --watch people.js"
+  },
+  "author": "Marco Donati",
+  "license": "ISC"
+}
