@@ -12,3 +12,21 @@ const hobbiesList = myHobbies({
 });
 
 console.log(hobbiesList);
+
+function createPersonProfile() {
+  const personDetails = PersonName({ firstName: "Marco", lastName: "Donati" });
+
+  const hobbiesDetails = myHobbies({
+    hobbyOne: "Sport",
+    hobbyTwo: "Videogames",
+    hobbyThree: "Reading",
+  });
+
+  return {
+    firstName: personDetails.firstName,
+    lastName: personDetails.lastName,
+    hobbies: hobbiesDetails.hobbies,
+  };
+}
+
+console.log(createPersonProfile());
